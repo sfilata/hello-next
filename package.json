@@ -1,0 +1,25 @@
+{
+  "name": "hello-next",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start -p %PORT%",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cross-env": "^5.2.0",
+    "isomorphic-unfetch": "^3.0.0",
+    "next": "^9.0.2",
+    "now": "^15.8.3",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-markdown": "^4.1.0",
+    "react-ssr-prepass": "^1.0.5"
+  }
+}
